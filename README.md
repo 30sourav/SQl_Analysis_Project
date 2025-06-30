@@ -5,10 +5,16 @@ Tools Used:
 MySQL 8+
 
 Project Highlights:
-Task	Business Objective
+
 Task 1	Find top-rated shoe colors for women
 Task 2	Identify best-selling colors for inventory planning
 Task 4	Rank top 100 loyal customers
 Task 6	Find 10 most profitable sub-categories
 Task 12	Optimize stock for new store in New York
 Task 14	Find top 2 brands in the most profitable category
+
+Key Skills Demonstrated:
+Complex joins and grouping
+Window functions (RANK(), OVER())
+Filtering with dates and product conditions
+Translating business needs into data solutions
