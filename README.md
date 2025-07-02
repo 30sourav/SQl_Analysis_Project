@@ -30,7 +30,7 @@ A collection of 14 real-world SQL tasks to support data-driven decisions in reta
 | Task 13 | Best-performing brand during summer 2019 |
 | Task 14 | Identify top brands in the most profitable category with standard delivery |
 
-## 🔍 Sample Query
+## Sample Query
 
 ```sql
 -- Task 6: Top 10 profitable sub-categories by margin
@@ -52,5 +52,5 @@ LIMIT 10;
 - Business insight extraction from raw sales data
 - Retail KPIs: profit margin, customer loyalty, product performance
 
-## 🧾 License
+## License
 This project is open-source and intended for learning and portfolio use.
