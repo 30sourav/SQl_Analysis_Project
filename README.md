@@ -1,17 +1,17 @@
-# 📊 E-Commerce SQL Analysis Project
+# E-Commerce SQL Analysis Project
 
 **Description:**  
 A collection of 14 real-world SQL tasks to support data-driven decisions in retail and e-commerce. This project includes customer loyalty analysis, product sales insights, delivery performance tracking, and profitability evaluation — all done using raw SQL.
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 - MySQL 8.0+
 - SQL Workbench / DBeaver / any SQL IDE
 
 ---
 
-## 📁 Project Highlights
+## Project Highlights
 
 | Task | Business Objective |
 |------|--------------------|
@@ -45,7 +45,7 @@ LIMIT 10;
 
 ---
 
-## 🚀 Key Skills Demonstrated
+##  Key Skills Demonstrated
 - SQL joins, aggregations, filtering, and subqueries
 - Window functions: `RANK()`, `OVER (PARTITION BY ...)`
 - Time-based analysis with `DATE_SUB`, `BETWEEN`, `YEAR()`
