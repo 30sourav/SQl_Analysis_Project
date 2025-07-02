@@ -33,14 +33,14 @@ A collection of 14 real-world SQL tasks to support data-driven decisions in reta
 ## Sample Query
 
 ```sql
--- Task 6: Top 10 profitable sub-categories by margin
+-- /*Task 6: Top 10 profitable sub-categories by margin
 SELECT products.sub_category, 
        (SUM(sales.profit) / SUM(sales.sales)) * 100 AS profit_margin
 FROM products
 JOIN sales ON products.product_id = sales.product_id
 GROUP BY products.sub_category
 ORDER BY profit_margin DESC
-LIMIT 10;
+LIMIT 10;*/
 ```
 
 ---
