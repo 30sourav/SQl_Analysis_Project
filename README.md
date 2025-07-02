@@ -7,7 +7,7 @@ A collection of 14 real-world SQL tasks to support data-driven decisions in reta
 
 ##  Tools Used
 - MySQL 8.0+
-- SQL Workbench / DBeaver / any SQL IDE
+- SQL Workbench 
 
 ---
 
@@ -29,19 +29,6 @@ A collection of 14 real-world SQL tasks to support data-driven decisions in reta
 | Task 12 | Recommend profitable sub-categories for new store in New York |
 | Task 13 | Best-performing brand during summer 2019 |
 | Task 14 | Identify top brands in the most profitable category with standard delivery |
-
-## Sample Query
-
-```sql
--- /*Task 6: Top 10 profitable sub-categories by margin
-SELECT products.sub_category, 
-       (SUM(sales.profit) / SUM(sales.sales)) * 100 AS profit_margin
-FROM products
-JOIN sales ON products.product_id = sales.product_id
-GROUP BY products.sub_category
-ORDER BY profit_margin DESC
-LIMIT 10;*/
-```
 
 ---
 
